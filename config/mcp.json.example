@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "flight-demo": {
+      "command": "d:\\OneDrive - Accton Technology Corporation\\Kiro_Project\\flight-mcp\\.venv\\Scripts\\python.exe",
+      "args": [
+        "d:\\OneDrive - Accton Technology Corporation\\Kiro_Project\\flight-mcp\\server.py"
+      ],
+      "env": {
+        "DUFFEL_ACCESS_TOKEN": "${DUFFEL_ACCESS_TOKEN}"
+      },
+      "disabled": false,
+      "autoApprove": [
+        "search_flights",
+        "get_flight_price",
+        "prepare_booking",
+        "get_test_order"
+      ]
+    }
+  }
+}
