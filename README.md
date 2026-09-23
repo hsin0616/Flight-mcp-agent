@@ -199,9 +199,8 @@ flight-mcp/
 ├── requirements.txt
 ├── .gitignore
 ├── .env.example
-└── .kiro/
-    └── settings/
-        └── mcp.json.example
+└── config/
+    └── mcp.json.example
 ```
 
 Do **not** commit your real `mcp.json` if it contains secrets.
